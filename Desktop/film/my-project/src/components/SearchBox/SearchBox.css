@@ -1,0 +1,106 @@
+@media (min-width: 800px) {
+.search-box__form {
+    display: flex;
+}
+.buttons-speech{
+    background-color: gray;
+    /* border-radius: 15px; */
+    outline: none;
+    margin-top: 5px;
+    border:none;
+    border-radius: 15px;
+    
+}
+.paragraf{
+    font-size: 12px;
+    color: blueviolet;
+    margin-top: 5px;
+    
+}
+.buttons-speech:hover{
+    background-color: lightgrey;
+}
+.search-box__form-label {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.search-box__form-input {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 5px;
+    width: 299.99997px;
+    font-size: 23px;
+    padding-left: 10px;
+    /* padding: 5px 10px; */
+    border: 1px solid rgba(0, 8, 7, .5);
+}
+
+.search-box__form-submit {
+    /* margin-top: 17px; */
+    padding: 5px 10px;
+    border: none;
+    transition: all 0.2s linear;
+    color: #FFEEDB;
+    background-color: rgba(0, 8, 7);
+    border-radius: 15px;
+}
+
+.search-box__form-submit:hover:not(:disabled) {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: #FFEEDB;
+    color: rgba(0, 8, 7);
+}
+
+.search-box__form-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+}
+@media (min-width: 360px) and (max-width: 800px) {
+    .search-box__form-submit {
+        /* margin-top: 25px; */
+        padding: 5px 10px;
+        border: none;
+        transition: all 0.2s linear;
+        /* height: 4.77002vw; */
+        color: #FFEEDB;
+        background-color: rgba(0, 8, 7);
+        font-size: 2.8vw;
+    }
+    
+    .search-box__form-submit:hover:not(:disabled) {
+        opacity: 0.8;
+        cursor: pointer;
+        transition: all 0.2s linear;
+        background-color: #FFEEDB;
+        color: rgba(0, 8, 7);
+    }
+    .search-box__form-submit:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    .search-box__form {
+        display: flex;
+        /* margin-top: 25px; */
+        align-items: center;
+    }
+    .search-box__form-input {
+        box-sizing: border-box;
+        display: block;
+        margin-top: 5px;
+        width: 48.75vw;
+        padding-left: 10px;
+        font-size: 3.8vw;
+        /* padding: 5px 10px; */
+        border: 1px solid rgba(0, 8, 7, .5);
+    }
+    .search-box__form-label {
+        display: inline-block;
+        font-size: 4.16667vw;
+        margin-right: 2.77778vw;
+    }
+}

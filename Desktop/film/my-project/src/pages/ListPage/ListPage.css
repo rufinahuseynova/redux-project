@@ -1,0 +1,39 @@
+
+@media (min-width: 800px) {
+    .list-page {
+        padding: 42px calc(50% - 300px);
+    }
+    
+    .list-page__title {
+        font-size: 34px;
+        margin-bottom: 26px;
+    }
+    
+    .list-page ul li {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    }
+    @media (min-width: 360px) and (max-width: 800px) {
+    .list-page {
+        padding: 42px calc(50% - 300px);
+    }
+    
+    .list-page__title {
+        font-size: 9.44444vw;
+        margin-bottom: 7.22222vw;
+        margin-left: 6.94444vw;
+    }
+    
+    .list-page ul li {
+        font-size: 5vw;
+        margin-left: 6.94444vw;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    img{
+        height:235.00001px ;
+        width: 180px;
+    }
+    }
